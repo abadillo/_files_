@@ -6,7 +6,7 @@ This is kinda of a guide for setting up two conky scripts. One is a system monti
     * https://www.dafont.com/vermin-vibes-1989.font
     * https://managore.itch.io/m6x11
 
-2. Put the content of this folder on ~/.config/conky/
+2. Put the content of this repository on ~/.config/conky/
 
 3. Make a login script with the following:
 

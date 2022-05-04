@@ -1,8 +1,8 @@
 # conky file formater
 
-inc = 260   # horizontal spacer
-col = 6     # columns
-fil = 10     # rows
+inc = 220   # horizontal spacer
+col = 7     # columns
+fil = 11     # rows
 
 texto = [["" for j in range(col)] for i in range(fil)]
 color = [[0  for j in range(col)] for i in range(fil)]
@@ -56,22 +56,13 @@ for i in range(1,fil):
     out = out + "\n"
     var = 20
 
-# print(out)
-# for i in range(col):
-
-#print(texto[1])
-#print(texto[2])
-#print(texto[3])
-#print(texto[4])
-#print(texto[5])
-#print(texto[6])
 
 f.close()
 
 fheader = open("conkyheader.txt","r")
 
 fout = open("../conky2.conf", "w")
-fout.write(fheader.read() + out + "\n\n]]")
+fout.write(fheader.read() + out + "\n]]")
 fout.close()
 
 fheader.close()

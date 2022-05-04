@@ -3,29 +3,30 @@ conky.config = {
 
     own_window_transparent = false,
     own_window_argb_visual = true,
-    own_window_argb_value = 15,
-
+    own_window_argb_value = 150,
 
     double_buffer = true,
     alignment = 'top_left',
     background = false,
-    border_width = 10,
+    border_width = 5,
     cpu_avg_samples = 11,
-    default_color = '#08a9b8',
-    color0 = '#08a9b8',
-    color1 = '#AFE2D8',
-    color2 = '#da4453',
 
-    font =  'Hack:thin:size=11',
-    font1 = 'hack:bold:size=14',
+    color0 = '#EF615D', -- resto
+    color1 = '#FF1A39', --titulos y *
+    color2 = '#FF1A39', -- importante
+
+    font =  'Hack:bold:size=11',
+    font1 = 'Hack:bold:size=14',
 
     draw_borders = false,
     draw_graph_borders = false,
     draw_outline = false,
     draw_shades = false,
     use_xft = true,
-    gap_x = 20,
-    gap_y = 20,
+
+    gap_x = 370,
+
+    gap_y = 22,
 
     net_avg_samples = 2,
     no_buffers = true,
@@ -33,11 +34,10 @@ conky.config = {
     out_to_stderr = false,
     extra_newline = false,
 
-
     own_window = true,
     own_window_class = 'Conky',
 
-    own_window_hints =  'below',
+    own_window_hints =  'below','undecorated','sticky','skip_taskbar','skip_pager',
     own_window_type =  'dock',
 
     stippled_borders = 0,
@@ -50,3 +50,4 @@ conky.config = {
 }
 
 conky.text = [[
+
